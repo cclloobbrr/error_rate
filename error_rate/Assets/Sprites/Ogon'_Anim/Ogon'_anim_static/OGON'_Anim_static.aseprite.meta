@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 76
       width: 38
       height: 28
-    spriteID: ac37263960494a24a858b942dc483743
+    spriteID: bf5d393e26a3aaf4f88541f0a9f85cac
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 4
       width: 40
       height: 29
-    spriteID: f7ba77a3ceda08a4cab961f5f9b9f65d
+    spriteID: 2a2606ed45b2fcd4faee90294593fce5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 41
       height: 28
-    spriteID: 9ce3b3756311124458394354fcf00c7a
+    spriteID: 84accd41d4e51014abdcc982249f083f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 41
       width: 38
       height: 28
-    spriteID: 33dd5a44647794d4e9c7dc1fa3bd1ec5
+    spriteID: 7de6a144bc332ef4d8b8b64fa53507b0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 40
       width: 41
       height: 28
-    spriteID: 1671350987a5c1c4fa25e7d38e88deb2
+    spriteID: 0067517575208e4469e298a4d9efbdad
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -235,7 +235,7 @@ ScriptedImporter:
         y: 11
         width: 38
         height: 28
-      spriteId: ac37263960494a24a858b942dc483743
+      spriteId: bf5d393e26a3aaf4f88541f0a9f85cac
     - name: OGON'_Anim_static_Frame_1
       frameIndex: 1
       cellRect:
@@ -243,7 +243,7 @@ ScriptedImporter:
         y: 11
         width: 40
         height: 29
-      spriteId: f7ba77a3ceda08a4cab961f5f9b9f65d
+      spriteId: 2a2606ed45b2fcd4faee90294593fce5
     - name: OGON'_Anim_static_Frame_2
       frameIndex: 2
       cellRect:
@@ -251,7 +251,7 @@ ScriptedImporter:
         y: 13
         width: 41
         height: 28
-      spriteId: 9ce3b3756311124458394354fcf00c7a
+      spriteId: 84accd41d4e51014abdcc982249f083f
     - name: OGON'_Anim_static_Frame_3
       frameIndex: 3
       cellRect:
@@ -259,7 +259,7 @@ ScriptedImporter:
         y: 12
         width: 38
         height: 28
-      spriteId: 33dd5a44647794d4e9c7dc1fa3bd1ec5
+      spriteId: 7de6a144bc332ef4d8b8b64fa53507b0
     - name: OGON'_Anim_static_Frame_4
       frameIndex: 4
       cellRect:
@@ -267,7 +267,7 @@ ScriptedImporter:
         y: 12
         width: 41
         height: 28
-      spriteId: 1671350987a5c1c4fa25e7d38e88deb2
+      spriteId: 0067517575208e4469e298a4d9efbdad
     linkedCells: []
     parentIndex: -1
   platformSettings: []
