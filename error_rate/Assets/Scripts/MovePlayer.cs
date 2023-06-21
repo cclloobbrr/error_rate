@@ -15,7 +15,7 @@ public class MovePlayer : MonoBehaviour
 
     private void FixedUpdate() 
     {
-        Vector2 move = new Vector2 (Input.GetAxis("Horizontal"), (Input.GetAxis("Vertical")));
+        Vector3 move = new Vector3 (Input.GetAxis("Horizontal"), (Input.GetAxis("Vertical")));
         transform.position = transform.position + move * speed * Time.deltaTime;
     }
 }
