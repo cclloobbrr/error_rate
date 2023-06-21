@@ -4,19 +4,18 @@ using UnityEngine;
 
 public class MovePlayer : MonoBehaviour
 {
-    public float speed = 5f;
-    private void Update() 
+    public float speed = 10f;
+
+    private Rigidbody2D rb;
+    private Vector2 moveVector;
+    private void Awake() 
     {
-        if(Input.GetKey(KeyCode.W))
-            transform.Translate(new Vector2(0, 1) * speed);
-        
-        if(Input.GetKey(KeyCode.A))
-        transform.Translate(new Vector2(-1, 0) * speed);
+       Rigidbody2D _rb = GetComponent<Rigidbody2D>();    
+    }
 
-        if(Input.GetKey(KeyCode.S))
-            transform.Translate(new Vector2(0,-1) * speed);
-
-        if(Input.GetKey(KeyCode.D))
-            transform.Translate(new Vector2(1, 0) * speed);
+    private void FixedUpdate() 
+    {
+        Vector2 move = new Vector2 (Input.GetAxis("Horizontal"), (Input.GetAxis("Vertical")));
+        transform.position = transform.position + move * speed * Time.deltaTime;
     }
 }
